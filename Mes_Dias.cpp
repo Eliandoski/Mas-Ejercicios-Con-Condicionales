@@ -16,6 +16,8 @@ int main() {
     } else {
         dias_febrero = 28;
     }
+
+	//TENIA QUE USAR IF ANIDADOS, NO SWITCH
     switch (mes) {
         case 1:
             cout << "Enero tiene 31 días";
